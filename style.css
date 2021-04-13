@@ -1,30 +1,19 @@
-body
-{
-  color:white;
-  background: red;
-}
+body {
+    color:black;
+    background:red;
 
-#camera , #result
-{
-  border: 2px dashed black;
-  width: 350px;
-  height: 300px; 
 }
-#result_emotion_name ,#result_emotion_name2  
-{
-  color: black;
+.heading {
+    width:90% ;
+    font-size: 25px;
+    
 }
-.member_name
-{
-  font-size: 40px;
+#camera {
+    border:2px dashed black;
+    width:350px ;
+    height: 300px;
+
 }
-.member
-{
-  font-size:48px;
-}
-.heading 
-{
-font-size: 18px;
-border-radius: 10px;
-letter-spacing: 10px;
+.name_of_object,#result_object_name,result_object_accuracy {
+color:black
 }
